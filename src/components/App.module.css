@@ -9,4 +9,5 @@
 
 .subtitle {
   color: aqua;
+  display: flex;
 }
