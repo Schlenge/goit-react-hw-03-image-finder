@@ -26,7 +26,7 @@ const SearchBar = ({ onSubmit }) => {
           type="text"
           autoComplete="off"
           autoFocus
-          placeholder="Search photos"
+          placeholder="Search images and photos"
           value={searchTerm}
           onChange={handleInputChange}
         />
