@@ -1,13 +1,11 @@
-.title {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40;
-  color: blueviolet;
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  padding-bottom: 24px;
 }
 
-.subtitle {
-  color: aqua;
+.BtnContainer {
   display: flex;
+  justify-content: center;
 }
