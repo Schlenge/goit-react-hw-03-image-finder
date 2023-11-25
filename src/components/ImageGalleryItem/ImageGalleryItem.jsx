@@ -18,7 +18,7 @@ const ImageGalleryItem = ({ image }) => {
       <li className={css.GalleryItem} onClick={openModal}>
         <img
           src={image.webformatURL}
-          alt={`Pixabay Image ${image.id}`}
+          alt={`${image.id}`}
           className={css.GalleryItemImage}
         />
       </li>
@@ -27,7 +27,7 @@ const ImageGalleryItem = ({ image }) => {
         isOpen={modalOpen}
         onClose={closeModal}
         imageUrl={image.largeImageURL}
-        altText={`Pixabay Image ${image.id}`}
+        altText={`${image.id}`}
       />
     </>
   );
